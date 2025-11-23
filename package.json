@@ -1,0 +1,20 @@
+{
+  "name": "hireveda-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "pdf-parse": "^2.4.5",
+    "mammoth": "^1.11.0",
+    "file-type": "^21.1.1"
+  }
+}
