@@ -1,8 +1,6 @@
-# Project Assignment
+ Project Assignment
 
 In this assignment, I have implemented the basic functionality that was given in the requirements.
-I have written the code myself and tried to keep the project simple and clean.
-
 This project includes:
 - Implemented the required features
 - Organized the code in separate files
@@ -12,11 +10,11 @@ This project includes:
 If any changes or improvements are needed, I can update it.
 This is the final version I have completed.
 --------------------------------------------------------+-------------------------------------------------+------------------------------------------------------+------------------------------------------------
-# Resume Parser – Complete Flow Explanation
+ Resume Parser – Complete Flow Explanation
 
 This project parses a resume from a given URL and extracts important information like name, email, phone, skills, experience, and education. Below is the exact flow I followed while building it.
 
-## 1. How I Planned the Flow
+ 1. How I Planned the Flow
 
 The first thing I considered was that the resume will come through a URL. My first thought was that the file might need to be downloaded. After checking different approaches, I realized that I do not need to download the file. I only need the data, not the actual file. So it was better to load the resume directly into a buffer.
 
@@ -30,7 +28,7 @@ Then I passed the buffer to the parser to extract the raw text from the resume.
 
 After getting the text, I extracted the main details such as name, email, phone number, skills, education, and work experience. Finally, I converted everything into a clean JSON format so it can be used easily by the frontend.
 
-## 2. Detailed Flow (Interview Explanation)
+ 2. Detailed Flow (Interview Explanation)
 
 If I explain the flow in detail, step by step, this is how I thought about it:
 
